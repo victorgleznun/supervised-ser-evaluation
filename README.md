@@ -1,6 +1,7 @@
 # 🎙️ Supervised-SER-Evaluation
 Sistema de reconocimiento de emociones en el habla desarrollado como parte de mi Trabajo de Fin de Grado. Compara cinco modelos supervisados (MLP, Random Forest, XGBoost, HistGradientBoosting y LinearSVC) a partir de características acústicas extraídas de voz. Incluye entrenamiento, predicción de audios, informes y gráficos resultantes
 
+---
 
 ## 📚 Descripción general
 
@@ -18,6 +19,7 @@ Supervised-SER-Evaluation permite:
 Comando para el inicio del sistema: 
 ```bash
 py train.py --model X
+```
 
 Puedes seleccionar cualquiera de los siguientes modelos con el argumento `--model`:
 
@@ -39,6 +41,7 @@ Puedes seleccionar cualquiera de los siguientes modelos con el argumento `--mode
 
 ```bash
 py -m pip install (*)
+```
 
 (*) Dependencias a instalar:
 - numpy
