@@ -1,0 +1,49 @@
+=== Informe de Clasificación ===
+              precision    recall  f1-score   support
+
+     alegría       0.83      0.84      0.84       129
+         ira       0.89      0.78      0.83       129
+       miedo       0.88      0.88      0.88       129
+    tristeza       0.84      0.93      0.88       141
+
+    accuracy                           0.86       528
+   macro avg       0.86      0.86      0.86       528
+weighted avg       0.86      0.86      0.86       528
+
+Precisión Total: 0.8580
+
+=== Validación cruzada ===
+accuracy: 0.7880 ± 0.2298
+precision_macro: 0.8111 ± 0.2024
+recall_macro: 0.7861 ± 0.2325
+f1_macro: 0.7816 ± 0.2381
+
+=== Importancia de Características (Permutation Importance) ===
+mfcc_3: 0.0348
+mfcc_12: 0.0345
+mfcc_5: 0.0184
+mfcc_2: 0.0085
+mfcc_7: 0.0081
+mfcc_9: 0.0080
+chroma_10: 0.0080
+zcr: 0.0072
+mfcc_8: 0.0068
+mfcc_4: 0.0064
+chroma_9: 0.0062
+chroma_8: 0.0062
+chroma_1: 0.0062
+mfcc_6: 0.0059
+mfcc_10: 0.0053
+chroma_12: 0.0032
+centroid: 0.0028
+chroma_3: 0.0027
+mfcc_11: 0.0023
+rmse: 0.0017
+chroma_5: 0.0009
+chroma_2: 0.0008
+chroma_7: 0.0004
+chroma_6: -0.0004
+mfcc_1: -0.0027
+chroma_11: -0.0030
+chroma_4: -0.0055
+mfcc_13: -0.0078

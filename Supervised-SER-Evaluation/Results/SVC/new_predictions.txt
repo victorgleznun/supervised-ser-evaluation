@@ -1,0 +1,5 @@
+=== Predicción de Audios Nuevos ===
+alegria.wav: alegría
+enfado.wav: ira
+miedo.wav: alegría
+tristeza.wav: alegría
